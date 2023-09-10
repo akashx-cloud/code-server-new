@@ -33,7 +33,7 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install Node.js v16
         uses: actions/setup-node@v3
@@ -144,7 +144,7 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install Node.js v16
         uses: actions/setup-node@v3
@@ -206,7 +206,7 @@ jobs:
     needs: npm-version
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install Node.js v16
         uses: actions/setup-node@v3
